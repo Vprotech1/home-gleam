@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeGleam Booking</title>
+
+       <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="homegleam.vercel.app">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://homegleam.vercel.app/">
+    <meta property="og:image" content="https://homegleam.vercel.app/photos/home1.jpg">
+    <meta property="og:description" content="Professional, reliable, and affordable home cleaning services.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="book.css">
+
+    <link rel="shortcut icon" href="home1.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<!-- SCROLL TEXT (REPLACES MARQUEE) -->
+<div class="scrol-ma">
+    <p class="scrol">Professional • Reliable • Affordable Cleaning Services</p>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="../photos/home1.jpg" alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#Contact">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#Book">Book Now</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- HERO / HEADER -->
+<section id="Book">
+
+    <div class="book1">
+        <h2>Book a Cleaning</h2>
+        <p>
+            Ready for a spotless home? Schedule your cleaning with Home Gleam today.
+            <br>
+            Fill out the form below and we’ll get back to you soon.
+        </p>
+    </div>
+
+    <!-- FORM -->
+    <div class="main">
+
+        <form>
+
+            <div class="form1">
+                <label>Name:</label>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="form2">
+                <label>Email:</label>
+                <input type="email" placeholder="Example@gmail.com" required>
+            </div>
+
+            <div class="form3">
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="+61 2 9123 4567" required>
+            </div>
+
+            <div class="form4">
+                <label>Service:</label>
+                <select required>
+                    <option>Regular Cleaning</option>
+                    <option>Office Cleaning</option>
+                    <option>Move In/Out Cleaning</option>
+                    <option>Bathroom & Kitchen Cleaning</option>
+                    <option>Window & Glass Cleaning</option>
+                    <option>Deep Cleaning</option>
+                </select>
+            </div>
+
+            <div class="form5">
+                <label>Date:</label>
+                <input type="date" required>
+            </div>
+
+            <div class="form6">
+                <label>Time:</label>
+                <select required>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                </select>
+            </div>
+
+            <div class="form7">
+                <label>Address:</label>
+                <input type="text" placeholder="Cleaning address">
+            </div>
+
+            <div class="form8">
+                <label>Additional Notes</label>
+                <textarea rows="4" placeholder="Any special instructions"></textarea>
+            </div>
+
+            <button type="submit">Book Now</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="Contact">
+
+    <div class="container text-center my-5">
+
+        <div class="row">
+
+            <div class="col-lg-4">
+                <h3>Quick Contact</h3>
+                <p>Prefer to talk to us directly?</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h3>Call Us</h3>
+                <p><a href="tel:+611234567890">+61 2 9127 8680</a></p>
+                <p><a href="tel:+619876543210">+61 2 9589 1519</a></p>
+            </div>
+
+            <div class="col-lg-4">
+                <h3>Email Us</h3>
+                <p><a href="mailto:HomeGleam@gmail.com">HomeGleam@gmail.com</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
