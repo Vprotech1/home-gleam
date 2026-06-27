@@ -92,6 +92,11 @@ body {
     width: 65px;
     background-color: #25d366;
 }
+.navbar-brand img {
+    width: 110px;
+    height: 50px;
+    object-fit: cover;
+}
 
 .booking {
     background: #25d366;
