@@ -637,10 +637,7 @@ hr {
 
 
 
-    .navbar-brand img {
-        width: 60px;
-        height: 60px;
-    }
+    
 
     .navbar-nav {
         margin-left: 0;
@@ -910,7 +907,7 @@ hr {
     /* Navbar */
     .navbar-nav {
         margin-left: 0;
-        text-align: center;
+        text-align: left;
     }
 
     .nav-link {
